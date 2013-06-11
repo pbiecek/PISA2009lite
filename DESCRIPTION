@@ -1,11 +1,11 @@
-Package: PISA2009light
+Package: PISA2009lite
 Version: 1.0
 Type: Package
-Title: A ,,light'' version of the package PISA2009.
+Title: A ,,lite'' version of the package PISA2009.
 Author: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
 Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
 Description:  A ,,light'' version of the package PISA2009. 
-           Only raw datasets are aaliable here, the large datasets [e.g. complete, keys] are not included.
+           Only raw datasets are in this package, the transformed datasets [e.g. complete, keys] are not included.
 Repository: CRAN
 License: GPL-2
 LazyLoad: yes
