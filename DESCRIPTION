@@ -1,16 +1,12 @@
 Package: PISA2009lite
 Version: 1.0
 Type: Package
-Title: A ,,lite'' version of the package PISA2009.
+Title: Set of datasets from PISA 2009 study
 Author: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
 Maintainer: Przemyslaw Biecek <przemyslaw.biecek@gmail.com>
-<<<<<<< HEAD
-Description:  A ,,light'' version of the package PISA2009. 
-           Only raw datasets are in this package, the transformed datasets [e.g. complete, keys] are not included.
-=======
-Description:  A ,,lite'' version of the package PISA2009. 
-           Only raw datasets are aaliable here, the large datasets [e.g. complete, keys] are not included.
->>>>>>> a typo in DESCIPTION
+Description: This package aggregates datasets from PISA 2009 study. 
+        The original dataset is avaliable here: \code{http://pisa2009.acer.edu.au/downloads.php}. It was converted into the R package to facilitate access for researchers familiar with R.
+        The PISA2009lite package containes raw datasets avaliable on the PISA webpage. In the package PISA2009 you will find additional datasets, merged datasets, transformed variables, but be aware because it is a quite large package.
 Repository: CRAN
 License: GPL-2
 LazyLoad: yes
