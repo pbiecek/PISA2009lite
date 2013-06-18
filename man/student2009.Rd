@@ -26,16 +26,21 @@
 \seealso{\code{\link{school2009}}, \code{\link{item2009}}, \code{\link{parent2009}}}
 \examples{
 library(PISA2009lite)
+
+# first few rows
 student2009[1:5,1:10]
 head(student2009dict$colnames)
 head(student2009dict$CNT)
+
+# averages in MATH, based on PV1MATH
 means <- unclass(by(
     student2009[,c("PV1MATH","W_FSTUWT")], 
     student2009[,"CNT"], 
     function(x) weighted.mean(x[,1], x[,2])))
 means <- sort(means)
 dotchart(means, pch=19)
-# add names
+
+# add names with the use of Kirgistan
 names(means) <- student2009dict$CNT[names(means)]
 dotchart(means, pch=19)
 }
