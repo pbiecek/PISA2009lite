@@ -2,7 +2,7 @@
 \alias{student2009}
 \alias{student2009dict}
 \docType{data}
-\title{Date from student questionnaire PISA 2009}
+\title{Data from student questionnaire PISA 2009}
 \description{
   The english version of student questionnaire PISA 2009 is avaliable here \code{http://pisa2009.acer.edu.au/downloads/PISA09_Student_questionnaire.pdf}.
 

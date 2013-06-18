@@ -2,7 +2,7 @@
 \alias{school2009}
 \alias{school2009dict}
 \docType{data}
-\title{Date from school questionnaire PISA 2009}
+\title{Data from school questionnaire PISA 2009}
 \description{
   The english version of school questionnaire PISA 2009 is avaliable here \code{http://pisa2009.acer.edu.au/downloads/PISA09_School_questionnaire.pdf}.
 
@@ -14,7 +14,7 @@
   
   The variable names are avaliable in the named vector \code{school2009dict$colnames}.
   
-  The dictionaries for \code{school2009} data set are avaliable as list of named vectors \code{school2009}.
+  The dictionaries for \code{school2009} data set are avaliable as list of named vectors \code{school2009dict}.
 }
 \usage{data(school2009)}
 \references{
