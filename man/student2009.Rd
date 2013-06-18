@@ -40,7 +40,7 @@ means <- unclass(by(
 means <- sort(means)
 dotchart(means, pch=19)
 
-# add names with the use of Kirgistan
+# add names with the use of dictionaries
 names(means) <- student2009dict$CNT[names(means)]
 dotchart(means, pch=19)
 }
