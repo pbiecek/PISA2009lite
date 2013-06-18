@@ -34,7 +34,7 @@ Maintainer: Przemyslaw Biecek <Przemyslaw.Biecek@gmail.com>
 }
 \keyword{ package }
 \seealso{
-Other releases of PISA \code{link{PISA2000lite}}, \code{link{PISA2003lite}}, \code{link{PISA2006lite}}, \code{link{PISA2012lite}}.
+Other releases of PISA \code{\link{PISA2000lite}}, \code{\link{PISA2003lite}}, \code{\link{PISA2006lite}}, \code{\link{PISA2012lite}}.
 }
 \examples{
 ## Do not run
