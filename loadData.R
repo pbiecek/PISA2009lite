@@ -1,4 +1,5 @@
 setwd("c:/_Przemek_/PISA2009")
+setwd("/Users/pbiecek/camtasia/")
 
 library(devtools)
 library(SAScii)
